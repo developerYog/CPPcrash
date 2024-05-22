@@ -179,21 +179,134 @@ using namespace std;
 
 // }
 
-// 9 - printing number-wise triangle/half pyramid
+// 9 - printing number-wise triangle/half pyramid  do it
 // ==============================================================================
 
-int main(){
+// int main(){
 
-    int n;
-    cout<< "Enter your n here : ";
-    cin>>n;
+//     int n;
+//     cout<< "Enter your n here : ";
+//     cin>>n;
 
-    for(int row=0; row<n; row++){
+//     for(int row=0; row<n; row++){
 
-        for(int col=0; col <row +1; col ++){
-            cout << col+1;
-        }
-        cout<< endl;
-    }
+//         for(int col=0; col <row +1; col ++){
+//             cout << col+1;
+//         }
+//         cout<< endl;
+//     }
 
-}
+// }
+
+// 10 - printing Full pyramid  --   do it
+// ==============================================================================
+
+// int main(){
+
+//     int n=15;
+
+//     for(int row=0; row<n; row++){
+
+//             for(int col=0; col<n-row-1; col++)
+//             cout<< " ";
+
+//             for(int col = 0; col < row+1; col++)
+//             cout<< "* ";
+
+//             cout << endl;
+
+//     }
+
+// }
+
+// 11 - Inverted Full pyramid  --   do it
+// ==============================================================================
+
+// int main(){
+
+//     int n=5;
+//     for(int row=0; row<n; row++){
+
+//         for(int col=0; col<row; col ++)
+//         cout << " ";
+
+//         for(int col=0; col<n-row; col++)
+//         cout<< "* ";
+
+//         cout << endl;
+//     }
+// }
+
+// 12 - Printing Diamond   --   do it
+// ==============================================================================
+
+// void fullPyramid(int n){
+
+//  for(int row=0; row<n; row++){
+
+//             for(int col=0; col<n-row-1; col++)
+//             cout<< " ";
+
+//             for(int col = 0; col < row+1; col++)
+//             cout<< "* ";
+
+//             cout << endl;
+
+//     }
+
+// }
+
+// void invertedFullPyramid(int n){
+
+//     for(int row=0; row<n; row++){
+
+//         for(int col=0; col<row; col ++)
+//         cout << " ";
+
+//         for(int col=0; col<n-row; col++)
+//         cout<< "* ";
+
+//         cout << endl;
+//     }
+// }
+
+// void diamond(int n){
+//         fullPyramid(n);
+//         invertedFullPyramid(n);
+
+// }
+
+// int main(){
+
+// int n=5;
+//     diamond(n);
+
+// }
+
+// 13 - Printing Hollow Pyramid   --   do it
+// ==============================================================================
+
+// int main()
+// {
+
+//     int n = 10;
+//     for (int row = 0; row < n; row++)
+//     {
+
+//         for (int col = 0; col < n - row - 1; col++)
+
+//             cout << " ";
+
+//         for (int col = 0; col < row + 1; col++)
+//         {
+
+//             if (col == 0 || row == 0 || row == n - 1 || col == row)
+//                 cout << "* ";
+//             else
+//                 cout << "  ";
+//         }
+
+//         cout << endl;
+//     }
+// }
+
