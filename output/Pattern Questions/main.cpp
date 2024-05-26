@@ -395,7 +395,7 @@ using namespace std;
 
 // }
 
-// 15 - Printing  Mixed Pyramid and Diamond   --   do it
+// 15 -- Printing  Mixed Pyramid and Diamond   --   do it
 // ==============================================================================
 // * * * * *   * * * * *
 // * * * *       * * * *
