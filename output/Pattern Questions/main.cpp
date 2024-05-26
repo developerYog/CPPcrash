@@ -335,7 +335,7 @@ using namespace std;
 //     }
 // }
 
-// 15 - Printing  Hollow Diamond   --   do it
+// 15 -- Printing  Hollow Diamond   --   do it
 // ==============================================================================
 
 // void fullHollowPyramid(int n){
